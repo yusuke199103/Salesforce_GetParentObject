@@ -1,0 +1,5 @@
+Salesforce DXのforce:mdapi:retrieveで取得したオブジェクト定義書をもとに各オブジェクトの親オブジェクトをサーチするためのプログラムです。
+調べたいオブジェクトのAPIネームを第一引数に指定してください。
+取引先の親になっているオブジェクトをサーチする場合の実行形式は以下の通りになります。
+
+#Python Salesforce_GetParentObject.py Account
